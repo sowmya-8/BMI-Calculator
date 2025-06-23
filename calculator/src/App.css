@@ -1,0 +1,69 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.calculator {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  backdrop-filter: blur(6px);
+}
+
+.calculator h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.calculator input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.calculator button {
+  background: #ff7e5f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+  font-size: 16px;
+}
+
+.calculator button:hover {
+  background: #eb5e3c;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.suggestion {
+  margin-top: 10px;
+  color: #444;
+  font-weight: 500;
+}
